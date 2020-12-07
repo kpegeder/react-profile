@@ -1,0 +1,7 @@
+.card {
+  background: yellow;
+  background-size: cover;
+  height: 80px;
+  /* border: red 1px solid; */
+  text-align: center;
+}
