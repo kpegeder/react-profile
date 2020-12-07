@@ -1,0 +1,14 @@
+.knowledge-section {
+  background: pink;
+  background-size: cover;
+  height: 400px;
+  /* border: red 1px solid; */
+}
+
+.skills {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  position: relative;
+  border: red 1px solid;
+}
