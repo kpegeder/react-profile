@@ -12,3 +12,12 @@
   position: relative;
   border: red 1px solid;
 }
+
+.center {
+  text-align: center;
+}
+
+.job-icon {
+  font-size: 1.2rem;
+  text-align: center;
+}
