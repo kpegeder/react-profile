@@ -3,11 +3,12 @@ import "./style.css";
 
 function Footer() {
   return (
-    <div>
-      <div className="footer">
-        <h1>Footer</h1>
+    <footer className="sticky-footer mt-auto py-3">
+      <div className="container-fluid">
+        <i className="fas fa-skiing"></i> Made by Kalen
+        <i className="far fa-futbol"></i>
       </div>
-    </div>
+    </footer>
   );
 }
 

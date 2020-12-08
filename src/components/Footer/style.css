@@ -1,7 +1,13 @@
-.footer {
-  background: grey;
-  background-size: cover;
-  height: 80px;
-  /* border: red 1px solid; */
+/* Todo */
+/* Fix styling */
+
+.sticky-footer {
+  font-size: 1.2rem;
   text-align: center;
+  background-color: #1b262c;
+  bottom: 0;
+  /* position: fixed; */
+  /* width: 100%; */
+  color: #6c757d;
+  /* background-size: cover; */
 }

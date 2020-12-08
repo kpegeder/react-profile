@@ -1,3 +1,6 @@
+/* TODO */
+/* Update Placement of Links */
+
 .nav-intro-section {
   /* background: url("../../assets/images/IMG_0941.jpeg"); */
   background: black;
@@ -15,7 +18,7 @@
 ul {
   list-style-type: none;
   padding: 0;
-  margin-bottom: -6px !important;
+  /* margin-bottom: 0 !important; */
   text-align: center !important;
 }
 
@@ -28,10 +31,10 @@ li {
 .links {
   color: white !important;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 44%;
 }
 
-a {
+/* a {
   color: white !important;
-}
+} */
