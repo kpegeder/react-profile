@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Portrait from "../../assets/images/portrait.jpeg";
 
 function About() {
   return (
@@ -7,6 +8,11 @@ function About() {
       <div className="about-section">
         <div className="about">
           <h1>About Me</h1>
+          <img
+            src={Portrait}
+            className="d-block bio-image"
+            alt="Kalen's head shot outside"
+          />
           <p className="about-me">
             Growing up, my favorite subject in school had to have been math. For
             me, math was logical with a right or wrong answer. As I started to

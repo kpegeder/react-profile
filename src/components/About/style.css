@@ -18,3 +18,9 @@
   position: relative;
   border: red 1px solid;
 }
+
+/* Center Porta */
+.bio-image {
+  width: 200px;
+  float: left;
+}
