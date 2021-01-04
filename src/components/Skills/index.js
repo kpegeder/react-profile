@@ -5,27 +5,26 @@ function Skills() {
   return (
     <div>
       <div className="knowledge-section">
-        <div className="skills">
+        <div className="skillTypes">
           <h1>Skills </h1>
           <ul>
             Technical Skills
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>Python</li>
-            <li>jQuery</li>
-            <li>React</li>
+            <li className="skill">HTML</li>
+            <li className="skill">CSS</li>
+            <li className="skill">JavaScript</li>
+            <li className="skill">MySQL</li>
+            <li className="skill">MongoDB</li>
+            <li className="skill">Node.js</li>
+            <li className="skill">Express</li>
+            <li className="skill">Python</li>
+            <li className="skill">jQuery</li>
+            <li className="skill">React</li>
           </ul>
           <ul>
             Soft Skills
-            <li>Teamwork</li>
-            <li>Communication</li>
+            <li className="skill">Teamwork</li>
+            <li className="skill">Communication</li>
           </ul>
-          <h2>Display Resume</h2>
         </div>
       </div>
     </div>

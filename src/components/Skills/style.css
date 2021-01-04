@@ -5,10 +5,14 @@
   /* border: red 1px solid; */
 }
 
-.skills {
+.skillTypes {
   text-align: center;
   padding: 20px;
   color: white;
   position: relative;
   border: red 1px solid;
+}
+
+.skill {
+  margin: 5;
 }

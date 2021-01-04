@@ -9,14 +9,6 @@ function Header() {
           <h1>Hi. I'm Kalen.</h1>
           <h2>I'm a developer.</h2>
         </div>
-        <ul className="links">
-          <li>
-            <a href="/">About</a>
-          </li>
-          <li>
-            <a href="/Portfolio">Portfolio</a>
-          </li>
-        </ul>
       </div>
     </div>
   );
