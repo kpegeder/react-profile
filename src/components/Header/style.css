@@ -15,26 +15,9 @@
   position: relative;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  /* margin-bottom: 0 !important; */
-  text-align: center !important;
-}
-
-li {
-  display: inline;
-  padding: 10px;
-  background: grey;
-}
-
 .links {
   color: white !important;
   position: absolute;
   /* bottom: 0; */
   left: 44%;
 }
-
-/* a {
-  color: white !important;
-} */

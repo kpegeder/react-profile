@@ -1,32 +1,37 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 function Skills() {
   return (
-    <div>
-      <div className="knowledge-section">
-        <div className="skillTypes">
+    <div className="knowledge-section">
+      <Container>
+        <Row className="skillTypes">
           <h1>Skills </h1>
-          <ul>
-            Technical Skills
-            <li className="skill">HTML</li>
-            <li className="skill">CSS</li>
-            <li className="skill">JavaScript</li>
-            <li className="skill">MySQL</li>
-            <li className="skill">MongoDB</li>
-            <li className="skill">Node.js</li>
-            <li className="skill">Express</li>
-            <li className="skill">Python</li>
-            <li className="skill">jQuery</li>
-            <li className="skill">React</li>
-          </ul>
-          <ul>
-            Soft Skills
-            <li className="skill">Teamwork</li>
-            <li className="skill">Communication</li>
-          </ul>
-        </div>
-      </div>
+        </Row>
+        <Row>
+          <Col className="leadType">Technical Skills</Col>
+        </Row>
+        <Row>
+          <Col className="skill">HTML</Col>
+          <Col className="skill">CSS</Col>
+          <Col className="skill">JavaScript</Col>
+          <Col className="skill">MySQL</Col>
+          <Col className="skill">MongoDB</Col>
+          <Col className="skill">Node.js</Col>
+          <Col className="skill">Express</Col>
+          <Col className="skill">Python</Col>
+          <Col className="skill">jQuery</Col>
+          <Col className="skill">React</Col>
+        </Row>
+        <Row>
+          <Col className="leadType">Soft Skills</Col>
+        </Row>
+        <Row>
+          <Col className="skill">Teamwork</Col>
+          <Col className="skill">Communication</Col>
+        </Row>
+      </Container>
     </div>
   );
 }

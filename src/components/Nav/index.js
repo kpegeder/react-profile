@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-// import "./style.css";
+import "./style.css";
 
 function Navbar() {
   return (

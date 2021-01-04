@@ -1,26 +1,19 @@
 .about-section {
   background: blue;
-  background-size: cover;
-  height: 400px;
 }
 
 .about {
-  text-align: center;
+  justify-content: center;
   padding: 20px;
   color: white;
-  position: relative;
 }
 
 .about-me {
   text-align: center;
-  padding: 20px;
   color: white;
-  position: relative;
-  border: red 1px solid;
 }
 
-/* Center Porta */
 .bio-image {
-  width: 200px;
-  float: left;
+  width: 225px;
+  margin: auto;
 }

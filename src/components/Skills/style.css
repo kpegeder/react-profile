@@ -1,18 +1,20 @@
 .knowledge-section {
   background: pink;
-  background-size: cover;
-  height: 200px;
-  /* border: red 1px solid; */
 }
 
 .skillTypes {
-  text-align: center;
+  justify-content: center;
   padding: 20px;
   color: white;
-  position: relative;
-  border: red 1px solid;
+}
+
+.leadType {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .skill {
-  margin: 5;
+  padding: 10px;
+  text-align: center;
 }
