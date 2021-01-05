@@ -19,14 +19,14 @@ const Projects = () => {
       </div>
       <div className="dropdown-divider"></div>
       <div className="row">
-        <div className="card">
+        <div className="card col-md-4 cardStyle">
           <img
             className="card-img-top img-size"
             src={Film}
-            alt="Two dog sitting by a lake"
+            alt="Welcome Page - Popcorn"
           />
           <div className="card-body">
-            <h5 className="card-title">Film Connector</h5>
+            <h5 className="card-title centerProject">Film Connector</h5>
             <a
               href="https://film-connector.herokuapp.com/"
               className="btn btn-style"
@@ -45,14 +45,14 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="card">
+        <div className="card col-md-4 cardStyle">
           <img
             className="card-img-top img-size"
             src={AirWalk}
-            alt="Two dog sitting by a lake"
+            alt="Map with pin and filter"
           />
           <div className="card-body">
-            <h5 className="card-title">AirWalk</h5>
+            <h5 className="card-title centerProject">AirWalk</h5>
             <a
               href="https://mx6.github.io/Bootcamp_Project_1/"
               className="btn btn-style"
@@ -71,14 +71,14 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="card">
+        <div className="card col-md-4 cardStyle">
           <img
             className="card-img-top img-size"
             src={Weather}
-            alt="Two dog sitting by a lake"
+            alt="5 day forecast of a city"
           />
           <div className="card-body">
-            <h5 className="card-title">Weather Dashboard</h5>
+            <h5 className="card-title centerProject">Weather Dashboard</h5>
             <a
               href="https://kpegeder.github.io/weather-dashboard/"
               className="btn btn-style"
@@ -98,14 +98,14 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card col-md-4 cardStyle">
           <img
             className="card-img-top img-size"
             src={Password}
-            alt="Two dog sitting by a lake"
+            alt="Password Generator"
           />
           <div className="card-body">
-            <h5 className="card-title">Password Generator</h5>
+            <h5 className="card-title centerProject">Password Generator</h5>
             <a
               href="https://kpegeder.github.io/password-generator/"
               className="btn btn-style"
@@ -125,14 +125,14 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card col-md-4 cardStyle">
           <img
             className="card-img-top img-size"
             src={Day}
-            alt="Two dog sitting by a lake"
+            alt="Work day planner"
           />
           <div className="card-body">
-            <h5 className="card-title">Day Planner</h5>
+            <h5 className="card-title centerProject">Day Planner</h5>
             <a
               href="https://kpegeder.github.io/day-planner/"
               className="btn btn-style"
@@ -152,14 +152,14 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card col-md-4 cardStyle">
           <img
             className="card-img-top img-size"
             src={Code}
-            alt="Two dog sitting by a lake"
+            alt="Code quiz start screen"
           />
           <div className="card-body">
-            <h5 className="card-title">Code Quiz</h5>
+            <h5 className="card-title centerProject">Code Quiz</h5>
             <a
               href="https://kpegeder.github.io/code-quiz/"
               className="btn btn-style"
@@ -179,14 +179,14 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card col-md-4 cardStyle">
           <img
             className="card-img-top img-size"
             src={Note}
-            alt="Two dog sitting by a lake"
+            alt="Note Taker welcome screen"
           />
           <div className="card-body">
-            <h5 className="card-title">Note Taker</h5>
+            <h5 className="card-title centerProject">Note Taker</h5>
             <a
               href="https://note-taker-kp1.herokuapp.com"
               className="btn btn-style"
@@ -206,14 +206,10 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="card">
-          <img
-            className="card-img-top img-size"
-            src={Burger}
-            alt="Two dog sitting by a lake"
-          />
+        <div className="card col-md-4 cardStyle">
+          <img className="card-img-top img-size" src={Burger} alt="Burger" />
           <div className="card-body">
-            <h5 className="card-title">Burger</h5>
+            <h5 className="card-title centerProject">Burger</h5>
             <a
               href="http://kp-burger.herokuapp.com/"
               className="btn btn-style"
@@ -224,34 +220,6 @@ const Projects = () => {
             </a>
             <a
               href="https://github.com/kpegeder/burger"
-              className="btn btn-style"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Project Code
-            </a>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">Team Profile Generator</h5>
-            <a
-              href="https://github.com/kpegeder/team-profile-generator"
-              className="btn btn-style"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Project Code
-            </a>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">Employee Tracker</h5>
-            <a
-              href="https://github.com/kpegeder/employee_tracker"
               className="btn btn-style"
               target="_blank"
               rel="noreferrer"
